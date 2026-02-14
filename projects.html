@@ -1,0 +1,59 @@
+<!-- 2026_02_15_@_00-33-58 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Janne's Mini Web Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="projects-hero">
+        <div>
+          <p class="tag">Projects</p>
+          <h1>Project gallery</h1>
+          <p class="subtitle">
+            Filter by category, search by keyword, and open each project page for more details.
+          </p>
+        </div>
+        <div class="projects-hero__stats">
+          <p id="result-count" class="status">Loading projects...</p>
+          <a class="ghost button-link" href="index.html">Back to home</a>
+        </div>
+      </header>
+
+      <section class="panel">
+        <div class="filters">
+          <div class="filter-buttons" role="group" aria-label="Filter projects">
+            <button class="filter-button is-active" data-filter="All">All</button>
+            <button class="filter-button" data-filter="Garden">Garden</button>
+            <button class="filter-button" data-filter="Driveway">Driveway</button>
+            <button class="filter-button" data-filter="Roof">Roof</button>
+          </div>
+          <label class="search" for="project-search">
+            Search
+            <input
+              id="project-search"
+              type="search"
+              placeholder="Search by title, location, or client"
+              autocomplete="off"
+            />
+          </label>
+        </div>
+        <div id="project-list" class="project-grid"></div>
+        <p id="project-empty" class="empty-state" hidden>
+          No projects match that search. Try a new keyword or reset the filters.
+        </p>
+      </section>
+    </main>
+
+    <script src="projects.js"></script>
+  </body>
+</html>

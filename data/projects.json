@@ -1,0 +1,72 @@
+[
+  {
+    "id": "garden-stone-steps",
+    "slug": "garden-stone-steps",
+    "title": "Stone Steps and Herb Borders",
+    "category": "Garden",
+    "status": "Done",
+    "updatedAt": "2026-02-10",
+    "location": "Ghent",
+    "client": "Private residence",
+    "summary": "Layered bluestone steps connect the patio to the lawn with fragrant herb borders.",
+    "scope": ["Design", "Groundwork", "Stonework", "Planting"],
+    "highlights": ["Reused local bluestone", "Installed drip irrigation"],
+    "nextSteps": ["Seasonal planting refresh in April"]
+  },
+  {
+    "id": "driveway-cobble-renewal",
+    "slug": "driveway-cobble-renewal",
+    "title": "Cobblestone Driveway Renewal",
+    "category": "Driveway",
+    "status": "In progress",
+    "updatedAt": "2026-02-12",
+    "location": "Bruges",
+    "client": "Van Doren Family",
+    "summary": "Relaying cobbles, widening the turning circle, and improving drainage near the gate.",
+    "scope": ["Survey", "Drainage", "Stone reset", "Edge detailing"],
+    "highlights": ["Added permeable joints", "Protected mature trees"],
+    "nextSteps": ["Finish edging stones", "Seal joints after curing"]
+  },
+  {
+    "id": "roof-green-retrofit",
+    "slug": "roof-green-retrofit",
+    "title": "Green Roof Retrofit",
+    "category": "Roof",
+    "status": "Planned",
+    "updatedAt": "2026-02-14",
+    "location": "Antwerp",
+    "client": "Studio K",
+    "summary": "Lightweight green roof with sedum mats and a rainwater buffer system.",
+    "scope": ["Planning", "Structural check", "Waterproofing", "Sedum install"],
+    "highlights": ["Rainwater capture", "Low-maintenance planting"],
+    "nextSteps": ["Finalize material order", "Confirm roof access schedule"]
+  },
+  {
+    "id": "garden-pergola-lighting",
+    "slug": "garden-pergola-lighting",
+    "title": "Pergola Lighting + Climber Plan",
+    "category": "Garden",
+    "status": "In progress",
+    "updatedAt": "2026-02-01",
+    "location": "Mechelen",
+    "client": "Cafe Luma",
+    "summary": "Soft lighting plan and climbing plants to turn the pergola into an evening hangout.",
+    "scope": ["Lighting design", "Cabling", "Planting"],
+    "highlights": ["Warm 2700K LEDs", "Wisteria and jasmine mix"],
+    "nextSteps": ["Install dimmers", "Plant climbers once frost passes"]
+  },
+  {
+    "id": "driveway-drainage-fix",
+    "slug": "driveway-drainage-fix",
+    "title": "Driveway Drainage Fix",
+    "category": "Driveway",
+    "status": "Done",
+    "updatedAt": "2026-01-26",
+    "location": "Leuven",
+    "client": "Bollinger Office",
+    "summary": "Re-graded the driveway and added a discreet channel drain to stop pooling.",
+    "scope": ["Regrading", "Channel drain", "Surface refresh"],
+    "highlights": ["Improved slope by 2%", "Clean finish with matching gravel"],
+    "nextSteps": ["Schedule yearly drain clean-out"]
+  }
+]
