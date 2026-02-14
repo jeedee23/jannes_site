@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Janne's Mini Web Lab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Space+Grotesk:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <div class="hero__text">
+          <p class="tag">Welcome, Janne</p>
+          <h1>Build tiny web magic</h1>
+          <p class="subtitle">
+            This page shows how a website works and the exact steps to publish it.
+            Change words, colors, and add new ideas as you go.
+          </p>
+          <div class="hero__actions">
+            <button id="spark-button" class="primary">Spark it</button>
+            <button id="reset-button" class="ghost">Reset</button>
+          </div>
+          <p id="spark-status" class="status">Waiting for your spark.</p>
+        </div>
+        <div class="hero__card" aria-hidden="true">
+          <div class="orb orb--pink"></div>
+          <div class="orb orb--sun"></div>
+          <div class="card__screen">
+            <div class="wave"></div>
+            <div class="mini-grid">
+              <span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <p>HTML + CSS + JS</p>
+          </div>
+        </div>
+      </header>
+
+      <section class="panel">
+        <h2>How a website works</h2>
+        <div class="steps">
+          <article>
+            <h3>1. HTML is the structure</h3>
+            <p>It is like the bones of a house: headings, paragraphs, buttons, images.</p>
+          </article>
+          <article>
+            <h3>2. CSS is the style</h3>
+            <p>It is paint, fonts, spacing, and all the pretty details.</p>
+          </article>
+          <article>
+            <h3>3. JavaScript is the sparkle</h3>
+            <p>It makes buttons do things and adds tiny surprises.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel panel--steps">
+        <h2>Publish it step by step</h2>
+        <ol class="steps-list">
+          <li>Make an account on GitHub.</li>
+          <li>Create a repo with a name on your account.</li>
+          <li>Create an account on Netlify.</li>
+          <li>Choose a free domain or buy a domain.</li>
+          <li>
+            Follow the instructions on Netlify to link your GitHub repo and publish the site.
+          </li>
+          <li>
+            Install VS Code, then install Git and log in to your GitHub account.
+            <div class="command-block">
+              <p>Windows (PowerShell):</p>
+              <code>winget install --id Git.Git -e</code>
+              <p>Mac (Terminal):</p>
+              <code>brew install git</code>
+              <p>Login to GitHub in Git:</p>
+              <code>git config --global user.name "Your Name"</code>
+              <code>git config --global user.email "you@example.com"</code>
+              <code>gh auth login</code>
+            </div>
+          </li>
+          <li>Press Shift + Ctrl + P (or Cmd + Shift + P on Mac) and type "clone".</li>
+          <li>Choose the website repo to clone.</li>
+          <li>Start an AI session from Jeedee23's team.</li>
+          <li>Choose GPT 5.2 Codex and select "agent mode".</li>
+          <li>
+            Ask the AI to create your website, but first make a text document with everything you
+            want on the site. Adjust it as you go.
+          </li>
+        </ol>
+      </section>
+
+      <section class="panel panel--alt">
+        <h2>Try editing this page</h2>
+        <div class="edit-grid">
+          <div>
+            <h3>Change a word</h3>
+            <p>Open <strong>index.html</strong> and change the title or subtitle.</p>
+          </div>
+          <div>
+            <h3>Change a color</h3>
+            <p>Open <strong>styles.css</strong> and edit the colors in <code>:root</code>.</p>
+          </div>
+          <div>
+            <h3>Add a sparkle</h3>
+            <p>Open <strong>script.js</strong> and add a new surprise in the button click.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Mini checklist</h2>
+        <ul class="checklist">
+          <li>Write a new headline.</li>
+          <li>Pick two fun colors.</li>
+          <li>Make the sparkle message different.</li>
+          <li>Show it to someone.</li>
+        </ul>
+      </section>
+
+      <footer class="footer">
+        <p>Made with curiosity and a bit of glitter.</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
