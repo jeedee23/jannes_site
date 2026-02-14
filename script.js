@@ -1,3 +1,4 @@
+// 2026_02_15_@_00-11-52
 const sparkButton = document.querySelector("#spark-button");
 const resetButton = document.querySelector("#reset-button");
 const status = document.querySelector("#spark-status");
@@ -26,7 +27,7 @@ sparkButton.addEventListener("click", () => {
 
 resetButton.addEventListener("click", () => {
   setStatus("Waiting for your spark.");
-  tag.textContent = "Welcome, Janne";
+  tag.textContent = "Hello Janne";
   tag.style.background = "#8ad6f7";
   sparkIndex = 0;
 });
